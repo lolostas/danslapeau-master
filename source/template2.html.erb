@@ -1,0 +1,181 @@
+---
+title: <%= spectacle.name  %>
+---
+
+<%= partial "headerfr" %>
+<div class="content" >
+  <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 20%), url(/images/fonddemembre1.jpg);">
+    <div class="banner-content" id="marina">
+      <div class="container">
+        <div class="row marina">
+          <div class="col-xs-12 col-sm-12 mireille">
+            <h7><%= spectacle.name %></h7><br/><br/>
+          </div>
+        </div>
+      </div>
+      <div class="row resu">
+        <div class="col-xs-12 col-sm-offset-0 col-sm-2">
+          <div class="card oui img-circle" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('/images/impressions1.jpeg');">
+          </div>
+        </div>
+        <div class="col-sm-offset-2 col-sm-8">
+            <div class="shake"><h2> <%= spectacle.realisation %></h2><p><%= spectacle.date %></p></div>
+          <i class="fa fa-minus" aria-hidden="true"></i>
+            <%= spectacle.resume %>
+        </div>
+      </div>
+        <div class="row plusfat">
+          <div class="col-sm-12 bas">
+            <div class="shake"><p><h3><b>Contact</b></h3></div>
+          </div>
+          <div class="col-sm-4 plusfat">
+            <p><%= spectacle.mail1 %></p>
+          </div>
+          <div class="col-sm-4 plusfat">
+            <p>06.05.40.65.87</p></a>
+          </div>
+          <div class="col-sm-4 plusfat">
+            <p><%= spectacle.mail2 %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="banner-2">
+  <div class="banner-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-6">
+          <div class="shake"><h2>À la technique :</h2></div><br/>
+            <p>
+            <b>Mise en scène EMMA PUJAR</b><br>
+            <b>Assistanat à la mise en scène GABRIELLE PENNELLIER</b><br>
+            <b>Scénographie et conception décor EMMA PUJAR ET CHARLOTTE GASSER</b><br>
+            <b>Creation lumiere FANNY THÊTARD</b><br>
+            <b>Costumes MATHILDE SERRE</b><br>
+            <b>Photographie MICHA OCÁDIZ</b><br>
+            <b>Création sonore  MATHIEU GESLAIN</b><br>
+            <b>Accessoires CHARLOTTE GASSER</b><br>
+            <b>Communication LAUREN JEAN </b><br>
+            <b>Accessoires CHARLOTTE GASSER</b>
+             </i></p>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+
+
+
+
+
+
+            <p><div class="shake"><h2>Sur Scène :</h2></div><br/></p>
+            <p><b>La Femme - <i>Roxy - </i> </b><i>MÉLANIE BELAMY</i> <br/></p>
+             <p><b>La pucelle - <i>Jeune fille en fleur, le garçon manqué, Ana  - </i> </b><i>LUCILLE DE ROCHEGONDE</i> <br/></p>
+              <p><b>Les gros bras - <i>le prince qui refuse d'être charmant </i> </b><i>PAUL CONTARGYRIS</i> <br/></p>
+               <p><b><i>La petite femme, la femme au foyer, la femme épanouie</i> </b><i>CHARLOTTE GASSER </i> <br/></p>
+            <p><b><i>L'évaporée, le pot de peinture, la working-girl</i> </b> <i>  ALICE MECHIN</i><br/>  <p>
+            <p><b><i>La bimbo, la jolie fille, la marcheuse </i> </b><i> MARINA OCÁDIZ</i> <br/></p>
+               <p><b><i>L’auteure, L’esquisse</i> </b><i>  EMMA PUJAR</i> <br/></p></p>
+          </div>
+         </div>
+          <br>
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3 col-sm-offset-2"></div>
+                <div class="col-sm-3 shake">
+                  <h2>Galerie photos</h2>
+                </div>
+                <div class="col-sm-4">
+                </div>
+              </div>
+                <div class="row">
+                <div class="col-sm-3 col-sm-offset-1">
+                  <% link_to '/images/impressionsfeminines/1.jpg' do %>
+                    <%= image_tag '/images/impressionsfeminines/1.jpg', style:"width: 311px; padding:10px;height:450px"  %>
+                  <% end %>
+                </div>
+                <div class="col-sm-3">
+                   <% link_to '/images/impressionsfeminines/2.jpg' do %>
+                    <%= image_tag '/images/impressionsfeminines/2.jpg', style:"width: 311px; padding:10px;height:450px"  %>
+                  <% end %>
+                </div>
+                <div class="col-sm-3">
+                      <% link_to '/images/impressionsfeminines/3.jpg' do %>
+                      <%= image_tag '/images/impressionsfeminines/3.jpg', style:"width: 311px; padding:10px;height:450px"  %>
+                  <% end %>
+                </div>
+              </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<%= partial "headerfr" %>
+
+
+<div class="content" >
+  <div class="banner" >
+    <div class="banner-content">
+        <h2>NOTE D'INTENTION</h2>
+        <p><i>De Emma Pujar</i></p>
+       <p>
+Est-ce qu’on naît cliché ou est-ce qu’on le devient ? Ou peut-être plus exactement, est-ce qu’on est cliché ou est-ce qu’on le paraît seulement ? Quelle esthétique et quel mode de représentation pour aborder la caricature avec justesse ? Comment lier ces « personnage stéréotypes » aux parcours et aux ambitions hétéroclites ? </p>
+<p>
+Le rapport que l'on entretien avec les cliches est particulier : il est régi par une forme d'illusion. Face a ce constat, il semblait pertinent de s'appuyer sur la distanciation, et entre-autres les théories de Bretch, de sorte a mettre en lumière cette illusion. Avant de voir les comedien-e-s interpréter leur monologue, le spectateur pourra les observer se préparer à devenir les clichés qu’ils interpréteront, grâce à un dispositif de maquillage et d'habillage à vue propres à des scènes de transition.</p>
+<p>
+Quasiment toujours sur scène, le groupe de comédien-e-s forme un chœur omniprésent et singulier, tantôt spectateurs et commentateurs, tantôt acteurs intégrés a l'univers du personnage. Ce parti-pris ambivalent amène quoiqu'il en soit un rapport de confrontation très théâtral : celui de l'individu face ou avec le groupe. Entre implication du comédien-e-s au sein du chœur et détachement, il s'agissait de trouver un équilibre légitime pour chaque cliché, prenant en compte sa place dans la société. </p>
+<p>
+Cette recherche autour du cœur et de l'individualité a été accompagné par un travail chorégraphique et visuel. Aujourd'hui la notion de genre est inévitablement liée a des codes visuels (postures corporelles, couleurs, vêtement types) très caractéristique en fonction des stéréotypes que certains personnages fictifs et médiatiques incarnent. Ici, il s'agit encore de trouver une équilibre au sein d'une dualité, exploiter a leur paroxysme les stéréotypes et leur potentiel symbolique tout en leur insufflant une poésie, un caractère universel. </p><p>
+S'inspirant du théâtre-danse, et notamment de Pina Bausch, la question du corps est intervenue autant dans le travail des monologues que dans le travail en groupe pour les scènes de transitions. Divers exercices d'improvisation sur le rythme, l’espace et l'écoute kinesthésique, ont  permis d'étoffer la création un sous-texte visuel, questionnant notre perception du genre et des stéréotypes. </p>
+
+
+
+
+​
+
+</p>
+
+​
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="banner-2">
+      <div class="banner-content">
+
+<br/>
+
+<div class="shake"><h2>Note d’intention</h2></div><br/>
+
+<p>
+Est-ce qu’on naît cliché ou est-ce qu’on le devient ? Ou peut-être plus exactement, est-ce qu’on est cliché ou est-ce qu’on le paraît seulement ? Quelle esthétique et quel mode de représentation pour aborder la caricature avec justesse ? Comment lier ces « personnage stéréotypes » aux parcours et aux ambitions hétéroclites ? </p>
+<p>
+Le rapport que l'on entretien avec les cliches est particulier : il est régi par une forme d'illusion. Face a ce constat, il semblait pertinent de s'appuyer sur la distanciation, et entre-autres les théories de Bretch, de sorte a mettre en lumière cette illusion. Avant de voir les comedien-e-s interpréter leur monologue, le spectateur pourra les observer se préparer à devenir les clichés qu’ils interpréteront, grâce à un dispositif de maquillage et d'habillage à vue propres à des scènes de transition.</p>
+<p>
+Quasiment toujours sur scène, le groupe de comédien-e-s forme un chœur omniprésent et singulier, tantôt spectateurs et commentateurs, tantôt acteurs intégrés a l'univers du personnage. Ce parti-pris ambivalent amène quoiqu'il en soit un rapport de confrontation très théâtral : celui de l'individu face ou avec le groupe. Entre implication du comédien-e-s au sein du chœur et détachement, il s'agissait de trouver un équilibre légitime pour chaque cliché, prenant en compte sa place dans la société. </p>
+<p>
+Cette recherche autour du cœur et de l'individualité a été accompagné par un travail chorégraphique et visuel. Aujourd'hui la notion de genre est inévitablement liée a des codes visuels (postures corporelles, couleurs, vêtement types) très caractéristique en fonction des stéréotypes que certains personnages fictifs et médiatiques incarnent. Ici, il s'agit encore de trouver une équilibre au sein d'une dualité, exploiter a leur paroxysme les stéréotypes et leur potentiel symbolique tout en leur insufflant une poésie, un caractère universel. </p><p>
+S'inspirant du théâtre-danse, et notamment de Pina Bausch, la question du corps est intervenue autant dans le travail des monologues que dans le travail en groupe pour les scènes de transitions. Divers exercices d'improvisation sur le rythme, l’espace et l'écoute kinesthésique, ont  permis d'étoffer la création un sous-texte visuel, questionnant notre perception du genre et des stéréotypes. </p>
+
+
+
+
+​
+
+</p>
+      </div>
+    </div>
+</div>
