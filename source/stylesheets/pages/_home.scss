@@ -1,0 +1,410 @@
+// Skeletton
+
+body {
+  font-size: 18px;
+  color: $blue-aca;
+}
+
+@media(max-width: 700px) {
+  body {
+    font-size: 16px;
+  }
+}
+section {
+  padding:0px;
+  margin:0px;
+}
+
+label{
+  text-decoration: none!important;
+}
+
+
+.footer i {
+    padding-right: 20px;
+    color: #5a0204;
+    margin-top: 5px;
+}
+
+.socialnetwork {
+  padding-right: 1em;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.banner-content{
+  padding: 10px;
+}
+.header {
+  background-color: $light-gray;
+  width: 200px;
+  height: 100vh;
+  overflow: scroll;
+  position: fixed;
+
+}
+
+@media(max-width: 700px) {
+.header {
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  background-color: $light-gray;
+
+  }
+}
+
+.content {
+  margin-left: 200px;
+  min-height: 100vh;
+
+}
+
+@media(max-width: 700px) {
+.content {
+    margin-left: 0px;
+    min-height: 100vh;
+
+
+  }
+}
+
+// menu
+.menu {
+
+  a{
+
+    color: $red;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+  }
+
+  a:hover{
+    width: 100%;
+    border-color: $red;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: all 500ms ease;
+    // box-shadow: 0 3px 3px -2px rgba(0,0,0,0.07);
+    text-decoration: none;
+
+  i:hover {
+    transition: transform 1s;
+    transform: rotate(360deg);
+  }
+}
+}
+
+@media (max-width:700px){
+.menu {
+  padding: 10px;
+
+  a{
+    color: $red!important;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    width: 100%;
+    border-color: $red;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: all 200ms ease;
+    text-decoration: none !important;
+    // box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+}
+}
+
+// header
+.content-header {
+  padding-left: 20px;
+  height: 100%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  overflow: scroll;
+}
+
+@media(max-width: 700px){
+  .content-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+}
+
+.logo {
+  color: #5a0204;
+}
+
+.banner h6 {
+  font-size:16px;
+}
+
+.banner.pluspetit h2 {
+  font-size:13px;
+}
+
+
+.footer {
+  p{
+    font-size: 12px;
+  }
+  i{
+    padding-right: 20px;
+    color: $red;
+  }
+    i:hover{
+    opacity: 0.5;
+  }
+}
+
+// Banner
+
+
+.banner {
+  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-color: $red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.banner h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+
+.banner.plusgros h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+@media(max-width: 700px){
+.banner {
+  // display: none;
+  }
+}
+
+.banner.alain h2 {
+  font-size: 25px;
+}
+
+.banner-2 {
+  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+  text-align: center;
+  margin-left: 150px;
+  min-height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.banner-2 h2 {
+  font-size: 28px;
+  color: $red;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.banner-2 p {
+  color: $red;
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.6;
+  margin-bottom: -6px;
+}
+
+@media(max-width: 700px){
+.banner-2 {
+  // display: none;
+  }
+}
+
+
+@media(max-width: 680px){
+.banner-top {
+  border-left: 0px solid $red !important;
+  }
+}
+// city
+.banner-top{
+  // border-left: 10px solid $blue-aca;
+    // border-top: 1px solid $light-gray;
+    // border-bottom: 1px solid $light-gray;
+  height: 10vh;
+  margin-top: 2px;
+  background-color: #f4f4f4;
+  background-color: $light-gray;
+  margin: auto;
+  text-align: center;
+  transition: all 0.8s ease;
+  h2{
+    font-size: 26px;
+    padding: 0px;
+    padding-top: 2.5vh;
+    margin: 0px;
+  }
+  }
+
+.banner-city {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+}
+
+
+.banner-content-city {
+  padding: 5px;
+  display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+}
+
+@media(max-width: 700px){
+  .banner-content-city {
+    font-size: 12px;
+  h2 {
+      font-size: 14px;
+    }
+  .btn-medium {
+    font-size: 28px;
+  }
+}
+
+
+}
+
+
+
+.map {
+  display: inline !important;
+}
+.bordermap{
+    border-radius: 5px;
+  border: solid 10px white;
+}
+
+.flag{
+  opacity: 0.5;
+  height: 30px;
+}
+
+.flag:hover{
+  opacity: 1;
+}
+
+.fdi{
+  opacity: 0.9;
+}
+
+.fdi:hover{
+  opacity: 1;
+}
+.contactmap{
+
+  width: 60%;
+  height: 100vh;
+  display: inline !important;
+}
+
+.alinea {
+  margin-left: 20px;
+}
+
+.office{
+  display: flex;
+ justify-content:center;
+  flex-direction: column;
+}
+
+// en dessous, la secousse du titre
+
+.shake {
+  display:inline-block;
+  display:block;
+  position:relative;
+}
+
+h2.shake,
+.shake.inline {
+  display:inline-block
+}
+
+.col-sm-12.bas {
+  margin-top: 35px;
+  margin-bottom: 12px;
+  margin-top: 1px;
+}
+
+@-webkit-keyframes spaceboots {
+  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake:hover,
+.shake:focus {
+  -webkit-animation-name: spaceboots;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
