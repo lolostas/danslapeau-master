@@ -74,9 +74,9 @@
     margin-right: 30px;
 }
 
-.prenom {
+.prenom.cecile {
   margin-bottom: 9px;
-  margin-top: -36px;
+  margin-top: 50px;
   font-size: 35px;
   color: white;
 }
@@ -85,11 +85,17 @@
     margin-bottom: 9px;
     margin-top: 20px;
     font-size: 35px;
-    color: sandybrown;
+    color: white;
 }
 
-.row.plusfat p {
-  font-size: 25px;
+.col-sm-3.xavier {
+  margin-bottom: 35px;
+}
+
+.row.plusfat.maisquoi p {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: -20px;
 }
 
 h2 .titrecontact {
@@ -97,7 +103,7 @@ h2 .titrecontact {
 }
 
 .row.resume p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .row.resu p {
