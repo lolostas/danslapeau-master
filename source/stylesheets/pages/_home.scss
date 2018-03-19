@@ -37,12 +37,13 @@ label{
 }
 
 .gallery img {
-  filter: grayscale(100%);
+  filter: grayscale(0);
   transition: 1s;
 }
 
 .gallery img:hover {
-  filter: grayscale(0);
+
+  filter: grayscale(100%);
   transform: scale(1.1);
 }
 
