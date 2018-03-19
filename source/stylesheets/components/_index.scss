@@ -31,9 +31,33 @@
   height:216px;
 }
 
-.banner.theatre {
-  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 20%), url(/images/fonddemembre1.jpg);
-}
+.banner-planches {
+    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 20%), image-url("/images/fonddemembre1.jpg");
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+    text-align: center;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+  }
+
+
+
+    // min-height: 100vh;
+
+
+
+
+
 
 .titrecontact h2 {
   font-size: 37px;
@@ -92,6 +116,10 @@
     color: white;
 }
 
+.col-xs-12 img {
+  margin-left: 200px;
+}
+
 .col-sm-3.xavier {
   margin-bottom: 35px;
 }
@@ -112,6 +140,7 @@ h2 .titrecontact {
 
 .row.resu p {
   font-size: 17px;
+  padding: 11px;
 
 }
 
