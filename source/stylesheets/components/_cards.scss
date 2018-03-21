@@ -12,7 +12,6 @@
 
 .card.membre {
     height: 212px;
-    width: 146px;
 }
 
 .textalign h2 {
@@ -162,7 +161,7 @@
     position: relative;
     bottom: 10px;
     width: auto;
-    right: 10px;
+    min-height: 44px;
 }
 
 
@@ -170,7 +169,6 @@
   font-size: 20px;
   color: white;
   text-align: center;
-  min-height: 44px;
 }
 
 .card-description h2 {
