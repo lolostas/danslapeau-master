@@ -11,6 +11,13 @@ body {
     font-size: 16px;
   }
 }
+
+@media (min-width: 768px) {
+.col-sm-1 {
+    width: 11.333333%;
+  }
+}
+
 section {
   padding:0px;
   margin:0px;
@@ -73,7 +80,10 @@ h6 {
 .content {
   margin-left: 200px;
   min-height: 100vh;
+}
 
+.col-xs-12.card.oui img {
+  position: center;
 }
 
 @media(max-width: 700px) {
@@ -172,6 +182,10 @@ h6 {
   font-size:16px;
 }
 
+.col-xs-12.card.page.img-circle {
+  margin-left:120px;
+}
+
 .banner.pluspetit h2 {
   font-size:13px;
 }
@@ -260,6 +274,7 @@ h6 {
   align-items: center;
   justify-content: center;
   background-color: #F5F5F5;
+  box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.2);
 }
 
 .banner-2 h2 {
@@ -277,12 +292,30 @@ h6 {
   margin-bottom: -6px;
 }
 
+.banner-planches p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    opacity: 0.6;
+    // margin-bottom: 3px;
+    // margin-top: 3px;
+    padding: 10px;
+}
+
 @media(max-width: 700px){
 .banner-2 {
   // display: none;
   }
 }
 
+
+
+
+// @media(max-width: 768px) {
+//   .col-sm-offset-1: {
+//   margin-left: 3.333333%;
+//   }
+// }
 
 @media(max-width: 680px){
 .banner-top {
@@ -309,6 +342,12 @@ h6 {
   }
   }
 
+  h2, .telecharger {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+}
+
 .banner-city {
   color: white;
   text-align: center;
@@ -317,6 +356,10 @@ h6 {
   background-size: cover !important;
 }
 
+.banner-content {
+  min-height: 100%;
+  max-width: 100%;
+}
 
 .banner-content-city {
   padding: 5px;
@@ -397,11 +440,6 @@ h2.shake,
   display:inline-block
 }
 
-.col-sm-12.bas {
-  margin-top: 35px;
-  margin-bottom: 12px;
-  margin-top: 1px;
-}
 
 @-webkit-keyframes spaceboots {
   0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
