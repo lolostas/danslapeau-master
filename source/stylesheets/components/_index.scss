@@ -3,7 +3,7 @@
 @import "navbar";
 @import "service";
 @import "cards";
-@import "gallery";
+@import "lightbox";
 
 .banner {
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url("velourbanner.jpg");
@@ -41,28 +41,48 @@
 
 .col-sm-4.sizing-picture-allonge img {
   width:314px;
-  height:216px;
+  height:auto;
 }
 
-.banner-planches {
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.banner.planches {
     background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 20%), image-url("/images/fondplanche3.jpg");
-    align-items: center;
-    background-size: cover;
-    height: auto;
-    display: flex;
-    justify-content: center;
+    // max-height: auto;
+    width: auto;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+    text-align: center;
+    // margin-left: 150px;
     min-height: 100vh;
-    max-height: auto;
+    height: auto;
+    /* if you have a 70px navbar => height: calc(100vh - 70px); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.2);
 }
 
-.banner-planches2 {
+.banner.planches2 {
     background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 20%), image-url("/images/fondplanche2.jpg");
-    align-items: center;
-    background-size: cover;
-    height: auto;
-    display: flex;
-    justify-content: center;
+    // max-height: auto;
+    width: auto;
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+    text-align: center;
+    // margin-left: 150px;
     min-height: 100vh;
+    height: auto;
+    /* if you have a 70px navbar => height: calc(100vh - 70px); */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.2);
 }
 
 .banner-planches.cinema {
@@ -168,6 +188,16 @@
   margin-bottom: 400px;
 }
 
+.navbar-collapse {
+  padding-left: 0px;
+}
+
+
+
+.navbar-header {
+  background-color: white;
+}
+
 .content.allez {
   margin-left: 100px;
 }
@@ -181,10 +211,6 @@
 
 .row {
    width:auto; height:auto; float:center;
-}
-
-.col-xs-12 img {
-  margin-left: 200px;
 }
 
 .col-sm-3.xavier {

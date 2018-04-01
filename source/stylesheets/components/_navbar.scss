@@ -1,12 +1,24 @@
 .btn-medium {
-  color: #f4f4f4;
-  border: 1px solid #f4f4f4;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   padding: 5px 7px;
   border-radius: 3px;
-  font-size: 28px;
+  font-size: 35px;
   font-weight: lighter;
-  opacity: 0.7;
+  text-align: center;
 }
+
+.btn-medium h3 {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 5px 7px;
+  border-radius: 3px;
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+}
+
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
@@ -18,8 +30,33 @@
   border: 1px solid #f4f4f4;
   padding: 5px 7px;
   border-radius: 3px;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: lighter;
-  opacity: 0.7;
 }
 
+.row.barnabe {
+  height: 20px;
+}
+
+.btn-medium.cv {
+  color: white;
+  border: 1px solid #f4f4f4;
+  padding: 6px 7px;
+  border-radius: 51px;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+.col-sm-10 {
+  text-align: center;
+}
+
+.row.merci {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}

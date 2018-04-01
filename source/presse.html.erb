@@ -1,103 +1,60 @@
 <%= partial "headerfr" %>
-<div class="content" id="index">
+<div class="content">
   <div class="banner theatre");">
     <div class="banner-content">
-      <div class="container">
-         <div class="row">
-           <div class="col-xs-12 col-sm-12 prenom">
-              <h3>On parle de nous dans la presse</h3><br/><br/>
+         <div class="row barnabe">
+           <div class="col-xs-12 col-sm-12">
+              <h3>On parle de nous dans la presse</h3><br><br>
            </div>
          </div>
-        </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-3">
-              <% link_to 'http://www.tad-saintgermainenlaye.fr/7-152/fiche/juste-la-fin-du-monde.htm' do %>
-                <%= image_tag 'pape.jpg', style:"width:190px; height: 280px" %>
-              <% end %>
-                <br/><br/>
-                <p><b> ST-GERMAIN-EN-LAYE</b> <br/><i>Le 01/10/2016 </i><br/>ARTICLE : "Juste la fin du monde, de Jean-Luc LAGARCE - Présenté par les élèves du  Conservatoire C.Debussy, le samedi 15 octobre 2016 "
-                </p>
-              <a  href="http://www.tad-saintgermainenlaye.fr/7-152/fiche/juste-la-fin-du-monde.htm" class="btn-medium">Lire l'article</a>
-            </div>
+        <div class="row barnabe">
             <div class="col-xs-12 col-sm-4">
+              <h1>INTERVIEWS</h1>
+              <% link_to 'http://radioagora-nanterre.fr/broadcast/4681-Impressions-f%C3%A9minines-une-pi%C3%A8ce-sur-les-clich%C3%A9s-autour-des-femmes' do %>
+                <%= image_tag 'itw.jpg', style:"width:140px; height: 100px"  %>
+              <% end %>
+                <p><b> INTERVIEW SUR RADIO LFM, 95.5 : <br>Rencontre avec le Collectif dans la Peau dans l’émission culture.
+                </p>
+        <a  href="http://radioagora-nanterre.fr/broadcast/4681-Impressions-f%C3%A9minines-une-pi%C3%A8ce-sur-les-clich%C3%A9s-autour-des-femmes" class="btn-medium article">Réecouter l'emission</a>
+
+              <p><b>INTERVIEW SUR RADIO AGORA, 105.5FM</b><br/> <i>Le 26/04/2016 </i><br/>INTERVIEW : "Impressions féminines: une pièce sur les clichés autour des femmes écrite et mise en scène par Emma Pujar.</p>
+              <a  href="http://radioagora-nanterre.fr/broadcast/4681-Impressions-f%C3%A9minines-une-pi%C3%A8ce-sur-les-clich%C3%A9s-autour-des-femmes" class="btn-medium article">Réecouter l'émission</a>
+          </b></p></div></div>
+              <div class="col-xs-12 col-sm-4">
+                <h1>REPORTAGE</h1>
+                <iframe width="140" height="215" src="https://www.youtube.com/embed/H5ezzS8uNQI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <p><b> REPORTAGE SUR YVELINES PREMIERES
+                  </b> <i>Le 10/10/2015</i><br/>REPORTAGE : L. Brachet, R. Da Cruz, S JaubertMONTAGE : A. Rouyer
+                  </p>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <h1>ARTICLES</h1>
+                <% link_to 'http://www.tad-saintgermainenlaye.fr/7-152/fiche/juste-la-fin-du-monde.htm' do %>
+                <%= image_tag 'pape.jpg', style:"width: 50px; height: 80px" %>
+                <% end %>
+                  <p><b> ST-GERMAIN-EN-LAYE</b> <br/><i>Le 01/10/2016 </i><br/>ARTICLE : "Juste la fin du monde, de Jean-Luc LAGARCE - Présenté par les élèves du  Conservatoire C.Debussy, le samedi 15 octobre 2016 "</p>
+                  <a  href="http://www.tad-saintgermainenlaye.fr/7-152/fiche/juste-la-fin-du-monde.htm" class="btn-medium article">Lire l'article</a>
+              </div>
+              <div class="col-xs-12 col-sm-4">
               <% link_to 'images/nanterre.jpg' do %>
-                <%= image_tag 'images/nanterre.jpg', style:"width:190px; height: 280px"  %>
+                <%= image_tag 'images/nanterre.jpg', style:"width:50px; height: 80px"  %>
               <% end %>
                 <br/><br/>
                 <p><b> PHARE OUEST NANTERRE</b><br/> <i>Le 27/04/2016 </i><br/>"Impressions Féminines, une création originale du Collectif dans la Peau, écrit et dirigée par Emma Pujar.". Article écrit par : Louise Cordès.
                 </p>
-              <a href="images/nanterre.jpg" class="btn-medium">Lire l'article</a></a>
-            </div>
-            <div class="col-xs-12 col-sm-4">
-              <% link_to 'http://radioagora-nanterre.fr/broadcast/4681-Impressions-f%C3%A9minines-une-pi%C3%A8ce-sur-les-clich%C3%A9s-autour-des-femmes' do %>
-                <%= image_tag 'itw.jpg', style:"width:340px; height: 280px"  %>
-              <% end %>
-                <br/><br/>
-                <p><b> INTERVIEW SUR RADIO LFM, 95.5
-                </b><br/> <i>Le 29/11/2015 </i><br/>INTERVIEW SUR RADIO LFM, 95.5
-                29/11/2015
-                INTERVIEW : Rencontre avec le Collectif dans la Peau dans l’émission culture.
-                </p>
-                <br>
-              <a  href="http://radioagora-nanterre.fr/broadcast/4681-Impressions-f%C3%A9minines-une-pi%C3%A8ce-sur-les-clich%C3%A9s-autour-des-femmes" class="btn-medium">Réecouter l'emission</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+              <a href="images/nanterre.jpg" class="btn-medium article">Lire l'article</a></a>
 
 
-<div class="content allez" id="index">
-  <div class="banner theatre");">
-    <div class="banner-content">
-      <div class="container">
-         <div class="row presse">
-           <div class="col-xs-12 col-sm-12 prenom">
-              <h3>On parle de nous dans la presse</h3><br/><br/>
-           </div>
-         </div>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-offset-1 col-sm-5">
-              <p><b>INTERVIEW SUR RADIO AGORA, 105.5FM</b><br/> <i>Le 26/04/2016 </i><br/>INTERVIEW : "Impressions féminines: une pièce sur les clichés autour des femmes écrite et mise en scène par Emma Pujar. Interprétation d'un extrait de la pièce: Marina Ocadiz et Lucille de Rochegonde." Émission animée par : Catherine Portaluppi, journaliste-animatrice.</p>
-              <a  href="http://radioagora-nanterre.fr/broadcast/4681-Impressions-f%C3%A9minines-une-pi%C3%A8ce-sur-les-clich%C3%A9s-autour-des-femmes" class="btn-medium article">Réecouter l'émission</a>
-            </div>
-            <div class="col-xs-12 col-sm-6">
               <% link_to 'images/yve.jpg' do %>
-              <%= image_tag 'yve.jpg', style:"width:350px; height: 280px" %>
+              <%= image_tag 'yve.jpg', style:"width:50px; height: 80px" %>
               <% end %>
             <p><b> ARTICLE SUR LE JOURNAL DE SAINT GERMAIN EN LAYE</b><br/> <i>Le 07/10/2015 </i><br/>ARTICLE : "Par le Conservatoire Claude-Debussy."</p>
               <a  href="images/yve.jpg" class="btn-medium article">Lire l'article</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  <div class="banner theatre");">
-    <div class="banner-content">
-      <div class="container">
-         <div class="row presse">
-           <div class="col-xs-12 col-sm-12 prenom">
-              <h3>On parle de nous dans la presse</h3><br/><br/>
-           </div>
-         </div>
-        </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-offset-1 col-sm-5">
-              <iframe width="440" height="315" src="https://www.youtube.com/embed/H5ezzS8uNQI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              <p><b> REPORTAGE SUR YVELINES PREMIERES
-              </b> <i>Le 10/10/2015</i><br/>REPORTAGE : L. Brachet, R. Da Cruz, S JaubertMONTAGE : A. Rouyer
-              </p>
-            </div>
-            <div class="col-xs-12 col-sm-6">
+
+
             <% link_to 'images/pape.jpg' do %>
             <%= image_tag 'pape.jpg', style:"width:190px; height: 280px" %>
             <% end %>
@@ -105,12 +62,15 @@
             <p><b> ARTICLE SUR LE COURRIER DES YVELINES</b> <br/><i>Le 09/10/2016 </i><br/>ARTICLE : "Une tragi-comédie de la parole se joue salle Tati, à Saint-Germain." </p>
             <a  href="images/pape.jpg" class="btn-medium article">Lire l'article</a>
           </div>
+
+
+
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
+  </div>
+</div>
 
 
