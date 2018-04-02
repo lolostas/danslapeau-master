@@ -104,6 +104,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   width: 300px;
 }
 
+.card.underline p {
+  text-decoration:underline;
+}
+
 .col-xs-12.card.oui {
     height: 410px;
     width: 346px;
@@ -189,6 +193,3 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 100px;
 }
 
-.card-link {
-  opacity: 0.1;
-}
