@@ -43,14 +43,17 @@ label{
   padding-right: 1em;
 }
 
+.data-title {
+  display: none;
+}
+
 .gallery img {
   filter: grayscale(0);
-  transition: 1s;
+  transition: 0.6s;
 }
 
 .gallery img:hover {
-
-  filter: grayscale(100%);
+  filter: grayscale(0);
   transform: scale(1.1);
 }
 
