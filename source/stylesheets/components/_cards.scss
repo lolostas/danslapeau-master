@@ -11,9 +11,6 @@
   border-radius: 13px;
 }
 
-.card.membre {
-    height: 212px;
-}
 
 .icon-bar {
   color: black;
@@ -40,6 +37,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: helvetica neue;
 }
 
+p .gabi {
+  font-size: 16px;
+}
 
 .colormain h2 {
   color: #5a0204;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .card.wallah {
   height: 440px;
-  width: 346px;
+  width: 310px;
 }
 
 .card.non {
@@ -156,8 +156,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   opacity: 0;
   width: 100%;
   height: 100%;
-  background-size: 100%;
+  background-size: cover !important;
 }
+
 .card:hover .card-hover {
   opacity: 1;
 }
